@@ -54,5 +54,5 @@ Func descargar()
 		MsgBox(48,"ERROR","No tienes conexión a Internet o el servidor está caido.")
 		Return
 	EndIf
-	InetGet("ftp://etsi:etsi@casabore.ddns.net/AutoPC_Plantilla.xlsx",@DesktopDir&"\AutoPC Plantilla.xlsx")
+	InetGet("https://github.com/BorjaLive/AutoPertCoste/raw/master/sources/AutoPC_Plantilla.xlsx",@DesktopDir&"\AutoPC Plantilla.xlsx")
 EndFunc
